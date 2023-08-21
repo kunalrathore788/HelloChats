@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f9f9f9"
-    tools:context=".Activities.PhoneNumberActivity">
+    tools:context=".Activities.OTPActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="207dp"
+        android:layout_height="158dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/otp_verify" />
+        app:srcCompat="@drawable/smartphones" />
 
     <TextView
         android:id="@+id/phoneLbl"
@@ -77,8 +77,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="#4CAF50"
-                android:text="Continue" />
+                android:backgroundTint="#2196F3"
+                android:text="Verify" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

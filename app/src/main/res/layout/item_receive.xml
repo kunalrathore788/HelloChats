@@ -10,6 +10,8 @@
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/receive_drawable"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,13 +35,14 @@
             android:paddingRight="10dp"
             android:paddingBottom="5dp"
             android:text="TextView"
-            android:textSize="13sp" />
+            android:textColor="#000000"
+            android:textSize="15sp" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/feeling"
-        android:layout_width="16dp"
-        android:layout_height="16dp"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
